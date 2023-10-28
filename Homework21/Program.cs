@@ -25,3 +25,18 @@ int ReadInt(string message)
     string input = Console.ReadLine();
     return int.Parse(input);
 }
+
+     /* int x1 = pointA[0];
+      int x2 = pointA[1];
+      int x3 = pointA[2];
+      
+      int y1 = pointB[0];
+      int y2 = pointB[1];
+      int y3 = pointB[2];
+      
+      double a = Math.Pow(x1 - y1, 2);
+      double b = Math.Pow(x2 - y2, 2);
+      double c = Math.Pow(x3 - y3, 2);
+      double distance = Math.Sqrt (a + b + c);
+      
+      return distance;*/
