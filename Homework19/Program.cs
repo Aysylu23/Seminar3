@@ -36,3 +36,18 @@ int ReadInt(string message)
     return int.Parse(input);
 }
 
+if (number < 10000 || number > 99999)
+{ 
+    Console.WriteLine("Число не пятизначное");
+    return false;
+}
+else if (number / 10000 == number % 10 && number / 1000 % 10 == number % 100 / 10) 
+{
+     Console.WriteLine("");
+    return true;
+}
+else 
+{
+    Console.WriteLine("");
+    return false;
+}
