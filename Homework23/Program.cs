@@ -2,7 +2,7 @@
 3 -> 1, 4, 9.
 5 -> 1, 8, 27, 64, 125.*/
 
-int number = ReadInt("Введите чило: ");
+int number = ReadInt("Введите число: ");
 int i = 1;
 
 while(i <= number)
